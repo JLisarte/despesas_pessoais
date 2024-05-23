@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBarMenuPrincipal">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenuUsuarios">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Usu&#xe1;rios"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemVisualizarUsuarios">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Visualizar Usu&#xe1;rios"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemVisualizarUsuariosActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jMenuCadastroUsuario">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar Usu&#xe1;rio"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCadastrarUsuario">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cadastrar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemCadastrarUsuarioActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenuGenero">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar / Visualizar Genero"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCadastrarGenero">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cadastrar"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemVisualizarGeneros">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Visualizar"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenuContas">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Contas"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemVisualizarContas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Visualizar Contas"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemVisualizarContasActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jMenuConta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar Conta "/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCadastrarConta">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cadastrar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemCadastrarContaActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenuTipoConta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar / Visualizar Tipo de Conta "/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCadastrarTipoConta">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cadastrar"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemVisualizarTipoConta">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Visualizar"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenuRendas">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rendas"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemVisualizarRendas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Visualizar Rendas"/>
+              </Properties>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jMenuTipoRenda">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar / Visualizar Tipo de Renda"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCadastrarRenda">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cadastrar"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemVisualizarRenda">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Visualizar"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenuSair">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sair"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1366, 768]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBarMenuPrincipal"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-79,0,0,5,44"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="true"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanelPrincipal">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="1330" height="660"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JDesktopPane" name="jDesktopPaneUsuario">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="autoscrolls" type="boolean" value="true"/>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[1200, 700]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="1200" height="700"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jInternalFrameVisualizarUsuario" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jInternalFrameCadastroUsuario" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jInternalFrameVisualizarUsuario" min="-2" max="-2" attributes="0"/>
+                          <Component id="jInternalFrameCadastroUsuario" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JInternalFrame" name="jInternalFrameCadastroUsuario">
+              <Properties>
+                <Property name="closable" type="boolean" value="true"/>
+                <Property name="defaultCloseOperation" type="int" value="1"/>
+                <Property name="iconifiable" type="boolean" value="true"/>
+                <Property name="resizable" type="boolean" value="true"/>
+                <Property name="title" type="java.lang.String" value="Cadastro de Usu&#xe1;rio"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Default Cursor"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                <Property name="visible" type="boolean" value="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jButtonCadastroSalvar" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jButtonCadastroCancelar" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jLabelCadastroCEP" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelCadastroNome" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jTextFieldCadastroNome" max="32767" attributes="0"/>
+                                          <Component id="jTextFieldCadastroEndereco" alignment="0" min="-2" pref="596" max="-2" attributes="0"/>
+                                          <Component id="jLabelCadastroEndereco" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabelCadastroCidade" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jTextFieldCadastroCidade" min="-2" pref="275" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                                      <Component id="jTextFieldCadastroEstado" min="-2" pref="275" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="jLabelCadastroEstado" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabelCadastroCPF" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jFormattedTextFieldCadastroCPF" min="-2" pref="275" max="-2" attributes="0"/>
+                                                  <Component id="jLabelCadastroEmail" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="jFormattedTextFieldCadastroDtNascimento" max="32767" attributes="0"/>
+                                                  <Component id="jComboBoxGenero" alignment="0" max="32767" attributes="0"/>
+                                                  <Group type="102" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="jLabelCadastroGenero" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabelCadastroDtNascimento" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jTextFieldCadastroEmail" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jFormattedTextFieldCadastroCEP" alignment="0" pref="275" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="80" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace pref="80" max="32767" attributes="0"/>
+                          <Component id="jLabelCadastroNome" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldCadastroNome" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabelCadastroCPF" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelCadastroDtNascimento" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextFieldCadastroDtNascimento" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextFieldCadastroCPF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelCadastroEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelCadastroGenero" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextFieldCadastroEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jComboBoxGenero" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jLabelCadastroCEP" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jFormattedTextFieldCadastroCEP" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabelCadastroEndereco" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldCadastroEndereco" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelCadastroCidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelCadastroEstado" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextFieldCadastroCidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldCadastroEstado" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="80" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jButtonCadastroCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButtonCadastroSalvar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelCadastroNome">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nome:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldCadastroNome">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelCadastroCPF">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="CPF:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextFieldCadastroCPF">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="###.###.###-##" subtype="-1" type="5"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelCadastroDtNascimento">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Data Nascimento:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextFieldCadastroDtNascimento">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format subtype="1" type="1"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelCadastroGenero">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sexo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBoxGenero">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="2">
+                        <StringItem index="0" value="Feminino"/>
+                        <StringItem index="1" value="Masculino"/>
+                      </StringArray>
+                    </Property>
+                    <Property name="selectedIndex" type="int" value="-1"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelCadastroEmail">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="E-mail:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldCadastroEmail">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelCadastroCEP">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="CEP:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextFieldCadastroCEP">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="##.###-###" subtype="-1" type="5"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelCadastroEndereco">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Endere&#xe7;o:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldCadastroEndereco">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelCadastroCidade">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cidade:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldCadastroCidade">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelCadastroEstado">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Estado:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldCadastroEstado">
+                </Component>
+                <Component class="javax.swing.JButton" name="jButtonCadastroCancelar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cancelar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCadastroCancelarActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButtonCadastroSalvar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Salvar"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[78, 28]"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCadastroSalvarActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JInternalFrame" name="jInternalFrameVisualizarUsuario">
+              <Properties>
+                <Property name="closable" type="boolean" value="true"/>
+                <Property name="defaultCloseOperation" type="int" value="1"/>
+                <Property name="iconifiable" type="boolean" value="true"/>
+                <Property name="resizable" type="boolean" value="true"/>
+                <Property name="title" type="java.lang.String" value="Lista de Usu&#xe1;rios"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Default Cursor"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                <Property name="visible" type="boolean" value="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabelVisualizarCidade2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jTextFieldVisualizarCidade2" min="-2" pref="275" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                                          <Component id="jLabelVisualizarEstado2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jLabelVisualizarEndereco2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldVisualizarEstado2" min="-2" pref="275" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="193" max="-2" attributes="0"/>
+                                  <Component id="jButtonCadastroSalvar2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jButtonCadastroCancelar2" min="-2" pref="80" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabelVisualizarCEP2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextFieldVisualizarCEP2" min="-2" pref="275" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="159" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldVisualizarEndereco2" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane1" min="-2" pref="1124" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabelCVisualizarNome2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="jTextFieldVisualizarNome2" min="-2" pref="710" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="jLabelVisualizarCPF2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="jFormattedTextFieldVisualizarCPF2" min="-2" pref="275" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="jLabelVisualizarDtNascimento2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jFormattedTextFieldVisualizarDtNascimento2" min="-2" pref="275" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabelVisualizarGenero2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelVisualizarEmail2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jFormattedTextFieldVisualizarDtNascimento3" min="-2" pref="275" max="-2" attributes="0"/>
+                                          <Component id="jTextFieldVisualizarEmail2" min="-2" pref="275" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="80" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelCVisualizarNome2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldVisualizarNome2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldVisualizarEmail2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelVisualizarEmail2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelVisualizarCPF2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextFieldVisualizarCPF2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelVisualizarDtNascimento2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextFieldVisualizarDtNascimento2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelVisualizarGenero2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextFieldVisualizarDtNascimento3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextFieldVisualizarCEP2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelVisualizarCEP2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelVisualizarEndereco2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldVisualizarEndereco2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextFieldVisualizarCidade2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelVisualizarCidade2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelVisualizarEstado2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldVisualizarEstado2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButtonCadastroSalvar2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButtonCadastroCancelar2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelCVisualizarNome2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nome:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldVisualizarNome2">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelVisualizarCPF2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="CPF:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextFieldVisualizarCPF2">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="###.###.###-##" subtype="-1" type="5"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelVisualizarDtNascimento2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Data Nascimento:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextFieldVisualizarDtNascimento2">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format subtype="1" type="1"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelVisualizarGenero2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sexo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextFieldVisualizarDtNascimento3">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format subtype="1" type="1"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelVisualizarEmail2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="E-mail:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldVisualizarEmail2">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelVisualizarCEP2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="CEP:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextFieldVisualizarCEP2">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="##.###-###" subtype="-1" type="5"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelVisualizarEndereco2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Endere&#xe7;o:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldVisualizarEndereco2">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelVisualizarCidade2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cidade:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldVisualizarCidade2">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelVisualizarEstado2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Estado:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldVisualizarEstado2">
+                </Component>
+                <Component class="javax.swing.JButton" name="jButtonCadastroCancelar2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Fechar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCadastroCancelar2ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButtonCadastroSalvar2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Editar"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[78, 28]"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="jTable1">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="9" rowCount="4">
+                            <Column editable="true" title="Nome" type="java.lang.String"/>
+                            <Column editable="true" title="E-mail" type="java.lang.String"/>
+                            <Column editable="true" title="CPF" type="java.lang.Integer"/>
+                            <Column editable="true" title="Dt. Nascimento" type="java.lang.Integer"/>
+                            <Column editable="true" title="Sexo" type="java.lang.String"/>
+                            <Column editable="true" title="CEP" type="java.lang.Integer"/>
+                            <Column editable="true" title="Endere&#xe7;o" type="java.lang.String"/>
+                            <Column editable="true" title="Cidade" type="java.lang.String"/>
+                            <Column editable="true" title="Estado" type="java.lang.String"/>
+                          </Table>
+                        </Property>
+                        <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                          <TableColumnModel selectionModel="0">
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                          </TableColumnModel>
+                        </Property>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JDesktopPane" name="jDesktopPaneContas">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="autoscrolls" type="boolean" value="true"/>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[1200, 700]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="1200" height="700"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jInternalFrameCadastroConta" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jInternalFrameVisualizarConta" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jInternalFrameCadastroConta" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jInternalFrameVisualizarConta" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JInternalFrame" name="jInternalFrameCadastroConta">
+              <Properties>
+                <Property name="closable" type="boolean" value="true"/>
+                <Property name="defaultCloseOperation" type="int" value="1"/>
+                <Property name="iconifiable" type="boolean" value="true"/>
+                <Property name="resizable" type="boolean" value="true"/>
+                <Property name="title" type="java.lang.String" value="Cadastro de Conta"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Default Cursor"/>
+                </Property>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[600, 400]"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[600, 400]"/>
+                </Property>
+                <Property name="visible" type="boolean" value="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jButtonSalvar" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jButtonCalcelar" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabelData" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelValorConta" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelDescricaoConta" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jTextFieldDescricaoConta" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldValorConta" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jFormattedTextFieldDataConta" alignment="0" pref="368" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelDescricaoConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldDescricaoConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextFieldValorConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelValorConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextFieldDataConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelData" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jButtonSalvar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButtonCalcelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="64" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelDescricaoConta">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o da Conta:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldDescricaoConta">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelValorConta">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Valor:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldValorConta">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldValorContaActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelData">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Data:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextFieldDataConta">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="##/##/####" subtype="-1" type="5"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButtonSalvar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Salvar"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButtonCalcelar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cancelar"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JInternalFrame" name="jInternalFrameVisualizarConta">
+              <Properties>
+                <Property name="closable" type="boolean" value="true"/>
+                <Property name="defaultCloseOperation" type="int" value="1"/>
+                <Property name="iconifiable" type="boolean" value="true"/>
+                <Property name="resizable" type="boolean" value="true"/>
+                <Property name="title" type="java.lang.String" value="Visualizar Conta"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Default Cursor"/>
+                </Property>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[600, 400]"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[600, 400]"/>
+                </Property>
+                <Property name="visible" type="boolean" value="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabelVisualizarConta" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelVisualizarValorConta" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelVisualizarData" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jTextFieldVisualizarValorConta" min="-2" pref="312" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jTextFieldVisualizarConta" min="-2" pref="312" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                          <Component id="jButtonSalvar1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jButtonCalcelar1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jFormattedTextFieldVisualizarDataConta" alignment="0" min="-2" pref="312" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="2" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="jScrollPaneTabelaContas" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextFieldVisualizarConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelVisualizarConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButtonSalvar1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButtonCalcelar1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextFieldVisualizarValorConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelVisualizarValorConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextFieldVisualizarDataConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelVisualizarData" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPaneTabelaContas" min="-2" pref="375" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelVisualizarConta">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o da Conta:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldVisualizarConta">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelVisualizarValorConta">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Valor:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldVisualizarValorConta">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldVisualizarValorContaActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelVisualizarData">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Data:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextFieldVisualizarDataConta">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="##/##/####" subtype="-1" type="5"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButtonSalvar1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Salvar"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButtonCalcelar1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cancelar"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPaneTabelaContas">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="jTable2">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="4" rowCount="4">
+                            <Column editable="true" title="Descri&#xe7;&#xe3;o" type="java.lang.String"/>
+                            <Column editable="true" title="Valor" type="java.lang.Float"/>
+                            <Column editable="true" title="Data Pagamento" type="java.lang.Integer"/>
+                            <Column editable="true" title="Data Cria&#xe7;&#xe3;o" type="java.lang.Integer"/>
+                          </Table>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
